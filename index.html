@@ -71,6 +71,9 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1">
+                        <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    </li>                    
+                    <li class="nav-item mx-0 mx-lg-1">
                         <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Acerca de</a>
                     </li>
                     <li class="nav-item mx-0 mx-lg-1">
@@ -101,11 +104,109 @@
             </div>
 
             <!-- Masthead Subheading -->
-            <p class="masthead-subheading font-weight-light mb-0">Emprendedor dedicado al desarrollador Web Freelance</p>
+            <p class="masthead-subheading font-weight-light mb-0">Freelance Web Development</p>
 
         </div>
     </header>
 
+
+
+    <!-- Portfolio Section -->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+
+            <!-- Portfolio Section Heading -->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
+            <!-- Icon Divider -->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+            <!-- Portfolio Grid Items -->
+            <div class="row">
+
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/p_hippy.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/p_seguimiento.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/p_situr.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/p_fdk.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/p_edi.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white">
+                                <i class="fas fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/p_fuda.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+        </div>
+    </section>
 
     <!-- About Section -->
     <section class="page-section bg-primary text-white mb-0" id="about">
@@ -124,9 +225,22 @@
             </div>
 
             <!-- About Section Content -->
+
             <div class="row">
                 <div class="mx-auto w-50 text-center">
-                    <p class="lead">Emprendedor dedicado al desarrollador Web Freelance. PHP, Symfony, HTML, jQuery, Bootstrap, MySQL.</p>
+                    <p class="lead">Emprendedor dedicado al desarrollador Web Freelance.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">PHP, HTML5, CSS3, JavaSript</p>
+                    <p class="lead"></p>
+                    <p class="lead">Symfony,jQuery, Bootstrap</p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">MySQL, SQL Server, Oracle</p>
+                    <p class="lead">SDKs Mercadopago y Todopago</p>
                 </div>
             </div>
 
@@ -180,13 +294,16 @@
 
                 <!-- Footer Social Icons -->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Alrededor de la web</h4>
+                    <h4 class="text-uppercase mb-4">Redes</h4>
                     <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://twitter.com/mauriciomss_/">
                         <i class="fab fa-fw fa-twitter"></i>
                     </a>
                     <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/mauricio-massena-92ab4a52/">
                         <i class="fab fa-fw fa-linkedin-in"></i>
                     </a>
+                    <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/mauriciomss/">
+                        <i class="fab fa-fw fa-github"></i>
+                    </a>           
                 </div>
 
                 <!-- Footer About Text -->
@@ -214,6 +331,251 @@
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
+
+
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Portal administración proyecto HIPPY Misiones</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/p_hippy.jpg" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">Portal de carga y administración de personas y datos dentro del proyecto HIPPY en la provincia de Misiones. </p>
+                                <p class="mb-5">Tecnologías: PHP, HTML5, CSS3, Jquery, Bootstrap, MySQL.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Sistema de Seguimiento de Pedidos CDN</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/p_seguimiento.jpg" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">El sistema es un portal Web interno para podes administrar y hacer el seguimientos de los pedidos realizados del área de TIC's al área de Compras, poder hacer un seguimiento del inicio, solicitud de presupuestos, comparación de mejor presupuesto por proveedor, solicitud a compra de los productos y cierre del pedido con la orden de compra provista por el área de Compras. Posee los módulos de Usuarios, Proveedores, Categorías, Productos, Pedidos.</p>
+                                <p class="mb-5">Tecnologías: PHP, Synfony3, HTML5, CSS3, Jquery, Bootstrap, MySQL.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Instalción SiTur (Sistema de Turnos) Tribunal de Faltas Municipalidad de Posadas</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/circus.png" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">Sistema de turnos para colas de espera para el Tribunal de Faltas Municipalidad de Posadas. Generación de turnos con recepcionista, pantalla de atención, posibilidad de atención personalizada, seccionado por sectores, administración de usuarios. Reportes con estadísticas. Pantalla donde se visualiza el llamado del turno.</p>
+                                <p class="mb-5">Desarrollado con PHP, MySQL, HTML5, CSS3, Jquery, Bootstrap.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Sitio Web Fundación Demetrio Koropesky</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/p_situr.jpg" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">Sitio de un carácter institucional, para comunicar información de la fundación, con su historia, funcionamiento, novedades y formas de contacto. Objetivo principal dentro del diseño y desarrollo del sitio es llegar a crear un sitio de una línea formal, estética y amigable en su navegación.</p>
+                                <p class="mb-5">Tecnologías: PHP, Synfony3, HTML5, CSS3, Jquery, Bootstrap, MySQL, API Youtube, Google Maps API.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Portal Web Estudiante del interior</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/p_edi.jpg" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">Portal Web interactivo para chicos de la secundaria y facultad, donde les provee información sobre carreras, facultades, universidades, cursos, alquileres, líneas de colectivo urbano y media distancia.</p>
+                                <p class="mb-5">Tecnologías: PHP, Synfony2, HTML5, Jquery, MySQL, CSS3, Appi Facebook y Twitter, Api Mercadopago.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times"></i>
+                    </span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title -->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Web Fundación Desarrollo Agropecuario - Landing Page</h2>
+                                <!-- Icon Divider -->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image -->
+                                <img class="img-fluid rounded mb-5" src="img/p_fuda.jpg" alt="">
+                                <!-- Portfolio Modal - Text -->
+                                <p class="mb-5">Sitio web de la Fundación Desarrollo Agropecuario, con estilo de Landing Page.</p>
+                                <p class="mb-5">Tecnologías: PHP, HTML5, CSS3, Jquery, Bootstrap, MySQL.</p>
+                                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Cerrar
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <!-- Bootstrap core JavaScript -->
