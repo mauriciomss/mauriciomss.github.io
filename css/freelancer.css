@@ -2621,8 +2621,6 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -10777,7 +10775,7 @@ a.text-dark:hover, a.text-dark:focus {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(46, 109, 180, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -10795,7 +10793,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    /*font-size: 3rem;*/
     line-height: 2.5rem;
   }
 }
